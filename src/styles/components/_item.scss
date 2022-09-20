@@ -1,0 +1,92 @@
+.prod_col_margen{
+
+  margin: 2% 2%;
+  width: 25%;
+
+
+  .prod_marco{
+    outline: 3px solid #eeeeee;
+    margin: 2% 2%;
+
+
+
+      .prod_img{
+        position: relative;
+        width: 100%;
+        
+
+        img{
+            width: 100%;
+            height: auto;
+        }
+
+        .prod_sale{
+
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: black;
+            color: white;
+            padding: 5px;
+            font-size: 20px;
+
+        }
+
+      }
+
+      .prod_textCenter{
+        text-align: center;
+      }
+
+      .prod_cajaInfoCart{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 10px;
+
+        .prod_price{
+            display: flex;
+            align-items: center;
+
+            .prod_priceBefore{
+                text-decoration: line-through;
+                font-size: 1.3em;
+            }
+
+            .prod_priceCurrently {
+                margin-left: 2%;
+                font-size: 1.5em;
+                color: red;
+            
+              }
+        }
+
+
+        .prod_addCart{
+            background-color: black;
+            color: white;
+            padding: 10px;
+            font-size: 1.3em;
+            font-weight: 500;
+            text-align: center;
+            outline: 0;
+            border: 0;
+
+            &:hover {
+              background-color: red;
+              color: white;
+              word-wrap: break-word;
+             }
+            
+        }
+
+        
+      }
+
+
+
+      
+
+}
+  
+}

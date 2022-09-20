@@ -1,0 +1,93 @@
+.cart_primeraSeccion {
+    width: 100%; //Cuando es space-between podemos poner 100 para que ocupe el espacio q deja
+
+    .cart_contTableFont{
+        font-size: $fontLetraTable;
+    }
+
+    .cartCont_cuadro {
+        vertical-align: middle;
+    }
+
+    .cartImagen {
+        // width: 100%;
+        width: 80px;
+        // ma  
+    }
+
+    .cartCont_btnEliminar {
+
+
+        padding: 5px;
+      
+        background-color:white;
+        color:$main_color;
+
+        font-size: 0.9em;
+        border-radius: 10px;
+        
+        border: 1.9px solid red;
+        
+        &:hover {
+            background-color: $main_color;
+            color: white;
+            //  line-height: 1.2;
+        }
+
+
+    }
+
+    .cart_btnContinueShop{
+
+        width: 25%;
+            font-size: $fontLetraButton;
+            font-weight: 500;
+            border: 1px solid;
+            border-color: #ef3f49;
+            border-radius: 1px;
+            color: #ef3f49;
+            text-align: center;
+        
+            background: transparent;
+            padding: 1% 1%;
+
+            &:hover {
+
+                background-color: rgba(255, 0, 0, 0.952);
+                color: white;
+          
+                font-weight: 550;
+              }
+            
+        
+
+    }
+
+    .cart_btnVaciarShop{
+
+        width: 20%;
+        font-size: $fontLetraButton;
+        font-weight: 500;
+        border: 1px solid;
+        border-color: #ef3f49;
+        border-radius: 1px;
+        color: #ef3f49;
+        text-align: center;
+    
+        background: transparent;
+        padding: 1% 1%;
+        margin-left: 1%;
+
+        &:hover {
+
+            background-color: rgba(255, 0, 0, 0.952);
+            color: white;
+      
+            font-weight: 550;
+          }
+
+    }
+
+   
+
+}

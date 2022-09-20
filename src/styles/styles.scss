@@ -1,0 +1,25 @@
+//global
+@import './base/_global.scss';
+
+//settings
+@import './base/_settings.scss';
+
+// Components
+@import './components/_navbar.scss';
+@import './components/_home.scss';
+@import './components/_itemListContainer.scss';
+@import './components/_item.scss';
+@import './components/_cartWidget.scss';
+
+@import './components/_seccionTitle.scss';
+@import './components/_itemDetail.scss';
+@import './components/_itemCount.scss';
+@import './components/_carrito.scss';
+@import './components/_catalogo.scss';
+@import './components/_itemList.scss';
+@import './components/_cartContainer.scss';
+@import './components/_cartContainerDetail.scss';
+@import './components/_cartContainerSummary.scss';
+@import './components/_itemCartCount.scss';
+@import './components/_itemListMiniCart.scss';
+@import './components/_checkOut.scss';

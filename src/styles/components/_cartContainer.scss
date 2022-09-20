@@ -1,0 +1,86 @@
+.cartCont_banner {
+ 
+
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("../../Assets/Banner/BannerIndex.jpg");    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     height: 400px;
+  
+     h1 {
+      color: white;
+      font-size: 40px;
+      }
+}
+
+  
+.cart_contenedor{
+
+    // max-width: 1920px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartCont_message{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+
+    .cartCont_Icon{
+        font-size: 7em;
+        margin-bottom: 1%;
+        color: $main_color;
+    }
+    p{
+        font-size: 1.2em;
+      
+    }
+
+ 
+
+    .cartCont_backLink{
+        width:20%;
+        display: flex;
+     
+        justify-content: center;
+
+        .cartCont_btnBack{
+            padding: 0.8% 10%;
+            
+            border: 1px solid;
+            border-radius: 10px;
+            color: red;
+            background-color: rgba(255, 255, 255, 0.800);
+    
+            
+            &:hover {
+    
+                background-color: rgba(255, 0, 0, 0.952);
+                color: white;
+                border-radius: 10px;
+                font-weight: 750;
+    
+                .cartCont_iconBack{
+                    color: white;
+                }
+            }
+        }
+    
+        .cartCont_iconBack{
+            font-size: 1.3em;
+            color: $main_color;
+           
+        }
+        
+    }
+
+}

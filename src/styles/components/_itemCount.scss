@@ -1,0 +1,123 @@
+.item_text_cantidad{
+    font-size:1.3em;
+    margin-bottom: 1%;
+    
+}
+
+.item_cant_caja {
+
+    display: flex;
+    align-items: center;
+
+
+    margin-bottom: 4%;
+
+
+
+
+    .item_btn_cont {
+
+        font-size: 20px;
+        border-radius: 30px;
+        font-weight: 500px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: $main_color;
+        background-color: rgba(255, 255, 255, 0.700);
+        // border-color: white ;
+        border: 2px solid;
+
+
+    }
+
+    .item_btn_contLeft{
+        font-size: 1.8em;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+    
+        padding: 1px 1px 1px 12px;
+        background-color:white;
+        color:$main_color;
+        border: 1.8px solid red;
+    
+        &:hover {
+            background-color: $main_color;
+            color: white;
+        }
+    }
+
+    .item_btn_contRigth{
+        font-size: 1.8em;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;;
+    
+        padding: 1px 6px 1px 6px;
+        background-color:white;
+        color:$main_color;
+        border: 1.8px solid red;
+    
+        &:hover {
+            background-color: $main_color;
+            color: white;
+        }
+    }
+    
+
+}
+
+.item_btn_agregar {
+
+    color: $main_color;
+    background-color: rgba(255, 255, 255, 0.700);
+
+    font-size: 1.4em;
+    font-weight: 500;
+    border: 1px solid;
+    border-color: $main_color;
+    text-align: center;
+    // background: transparent;
+    padding: 1% 1%;
+
+    &:hover {
+
+        background-color: rgba(255, 0, 0, 0.952);
+        color: white;
+  
+        font-weight: 550;
+      }
+}
+
+.Negro {
+    font-size: 1.4em;
+    font-weight: 500;
+    border: 1px solid;
+
+    text-align: center;
+    background: transparent;
+    padding: 1% 1%;
+    background-color: -internal-light-dark(rgba(239, 239, 239, 0.3), rgba(19, 1, 1, 0.3));
+
+    color: -internal-light-dark(rgba(16, 16, 16, 0.3), rgba(255, 255, 255, 0.3));
+    border-color: -internal-light-dark(rgba(118, 118, 118, 0.3), rgba(195, 195, 195, 0.3));
+}
+
+.item_Detalles {
+
+    font-size: 1.3em;
+    // color: white;
+    margin-top: 4%;
+    margin-bottom: 1%;
+
+}
+
+.item_frase {
+
+    font-size: 1.3em;
+    // color: white;
+    margin-bottom: 1%;
+
+    background-image: none;
+
+}

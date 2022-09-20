@@ -1,0 +1,39 @@
+.item_btn_carCountLeft{
+    font-size: 0.7em;
+
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 1px 1px 1px 7px;
+    // background-color: rgba(255, 255, 255, 0.900);
+    background-color:white;
+    color:$main_color;
+    // border-color: white ;
+    border: 1.8px solid red;
+
+    &:hover {
+        background-color: $main_color;
+        color: white;
+        //  line-height: 1.2;
+    }
+}
+
+.item_btn_carCountRight{
+    font-size: 0.7em;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+
+    padding: 1px 3px 1px 4px;
+    background-color:white;
+    color:$main_color;
+    border: 1.8px solid red;
+
+    &:hover {
+        background-color: $main_color;
+        color: white;
+    }
+}
+
+
+.item_cantContador{
+    margin: 0 4%
+}

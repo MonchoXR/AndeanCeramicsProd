@@ -1,0 +1,109 @@
+.prod_cajaDetalle{
+    display: flex;
+    align-items: center;
+    margin-bottom: 3%;
+    padding-bottom: 3%;
+    border-bottom: 1px solid rgba(0,0,0,.05);
+
+    .prod_imgCompra{
+      padding-right: 5%;
+      width: 100px;
+
+      position: relative;
+
+      img {
+        width: 100%;
+
+      }
+      
+      .prodEliminaCss {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background-color: rgba(255, 255, 255, 0.700);
+        color: red;
+        padding-top: 0;
+        padding-bottom: 1px;
+        padding-left: 7px;
+        padding-right: 7px;
+      
+        font-size: 14px;
+        text-align: center;
+        border-radius: 30px;
+        font-weight: 500;
+        border-color: white ;
+        border: 0px solid;
+        
+        
+      
+      
+        &:hover {
+      
+          background-color: rgba(255, 0, 0, 0.952);
+          color: white;
+          border-radius: 10px;
+          //  line-height: 1.2;
+          font-weight: 750;
+        }
+      
+      }
+      
+
+
+    }
+  }
+
+  .prod_colorLetraCart{
+    color: #888888 ;
+    font-size: 1.3em;
+  }
+  
+
+  .prodMiniCart {
+    display: flex;
+  
+    width: 100%;
+
+   
+    .prdViewCart {
+
+      // width: 50%;
+      font-size: 1.2em;
+      font-weight: 550;
+      border: 1px solid;
+      border-color: #ef3f49;
+      border-radius: 1px;
+     
+      text-align: center;
+      padding: 2% 5%;
+      margin-right: 3%;
+      background: transparent;
+
+      &:hover {
+
+        background-color: rgba(255, 0, 0, 0.952);
+
+        .prdViewCartBtn{
+          color: white;
+        
+        }
+  
+      }
+   
+    }
+
+    .prdViewCartBtn{
+      background-color: transparent;
+      border: 0;
+      color: #ef3f49;
+      
+        font-weight: 550;
+      &:hover {
+
+        // background-color: rgba(255, 0, 0, 0.952);
+        // color: white;
+  
+        // font-weight: 550;
+      }
+    }
+  }

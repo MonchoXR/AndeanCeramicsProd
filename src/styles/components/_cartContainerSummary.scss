@@ -1,0 +1,84 @@
+.cart_segundaSeccion {
+    width: 40%;
+    margin-left: 2%;
+
+    .cart_contTableFont{
+        font-size: $fontLetraTable;
+    }
+
+    @media screen and (max-width: 992px) {
+        width: 100%;
+        margin-left: inherit;
+    
+       
+      }
+   
+
+    .cart_sinBottomBorder{
+        border-bottom: 0;
+
+    }
+
+    .cart_summary {
+        // width: 100%;
+        margin-left: 3%;
+     
+        padding: 2%;
+        outline: 2px solid rgba(0,0,0,.1);
+
+        @media screen and (max-width: 992px) {
+
+            margin-left: 1%;
+            margin-right: 1%;
+            margin-top: 6%;
+            outline: 4px solid rgba(0,0,0,.1);
+           
+          }
+        
+       .prod_colorLetraCart {
+            color: #888888;
+        }
+
+        .cart_colorLetraTotal {
+            font-size: 1.4em;
+            font-weight: 700;
+            color: #000;
+        }
+
+        .cart_ViewCheckOut{
+        width: 100%;
+        font-size: $fontLetraButton;
+        font-weight: 500;
+        border: 1px solid;
+        border-color: #ef3f49;
+        border-radius: 1px;
+        color: #ef3f49;
+        text-align: center;
+    
+        background: transparent;
+        padding: 2% 8%;
+        margin-bottom: 7%;
+
+        &:hover {
+
+            background-color: rgba(255, 0, 0, 0.952);
+            color: white;
+      
+            font-weight: 550;
+          }
+        }
+
+
+        .cart_cuponContainer{
+            display: flex;
+            justify-content: space-between;
+        
+        
+            .cart_btnApply{
+                width:60%;
+                margin-left: 3%;
+            }
+           
+        }
+    }
+}
