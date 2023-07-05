@@ -17,7 +17,11 @@ export const ItemDetailContainer = () => {
 
   useEffect(() => {
 
-    setLoading(state);
+   
+    setTimeout(()=>{
+      setLoading(state);
+        
+    },1000)
 
   }, [state]);
   // console.log("itemsContainer nombre",items.nombre);

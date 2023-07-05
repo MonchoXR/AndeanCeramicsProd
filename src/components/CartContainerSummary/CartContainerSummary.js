@@ -55,13 +55,14 @@ export const CartContainerSummary=()=>{
                   <th scope="row">SubTotal</th>
                   <td id="cart_subTotalJS" className="prod_colorLetraCart">${getNumeroSubTotal()}</td>
                 </tr>
-                <tr>
+                {/* <tr>
                   <th scope="row">Shipping</th>
                   <td id="cart_shipJS" className="prod_colorLetraCart">100</td>
-                </tr>
+                </tr> */}
                 <tr >
                   <th className="cart_sinBottomBorder" scope="row">Total</th>
-                  <td  id="cart_precioTotal" className="cart_sinBottomBorder cart_colorLetraTotal">${getNumeroSubTotal()+100}</td>
+                  {/* <td  id="cart_precioTotal" className="cart_sinBottomBorder cart_colorLetraTotal">${getNumeroSubTotal()+100}</td> */}
+                  <td  id="cart_precioTotal" className="cart_sinBottomBorder cart_colorLetraTotal">${getNumeroSubTotal()}</td>
                 </tr>
               </tbody>
               

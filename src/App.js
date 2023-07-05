@@ -26,7 +26,7 @@ import { CancelStripe } from './Pages/CancelStripe/cancelStripe';
 //Imagenes
 function App() {
 
-
+ 
 
   return (
 

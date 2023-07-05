@@ -128,14 +128,15 @@ export const CheckOut=()=>{
                             <th id="check_subTotalJS" >${getNumeroSubTotal()}</th>
                         </tr> 
         
-                        <tr> 
+                        {/* <tr> 
                             <td>Shipping</td>
                             <td id="check_shipJS">$100</td>      
-                        </tr>
+                        </tr> */}
 
                         <tr> 
                             <th>Total</th>
-                            <th id="check_precioTotal" className=" check_sizeTotal"> ${getNumeroSubTotal()+100}</th>
+                            {/* <th id="check_precioTotal" className=" check_sizeTotal"> ${getNumeroSubTotal()+100}</th> */}
+                            <th id="check_precioTotal" className=" check_sizeTotal"> ${getNumeroSubTotal()}</th>
                         </tr>
                   </tbody>
                  

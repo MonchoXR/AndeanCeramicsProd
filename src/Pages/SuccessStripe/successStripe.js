@@ -1,7 +1,7 @@
 export const SuccessStripe =()=>{
     return(
         <>
-        <div>Success</div>
+        <h1>Success</h1>
         </>
     )
 }
